@@ -19,6 +19,9 @@ export default function ListUser({ selectReceiver, listChat }) {
   // console.log(moment(listChat[listChat.length - 1].date).format('h:mm'))
   // console.log(listChat[listChat.length - 1].message)
   console.log(listChat.length)
+  const submitSearch = (e) => {
+    dispatch(getListUser(search, navigate));
+  };
   useEffect(() => {
     if(listChat.date === undefined){
       return;
@@ -27,12 +30,6 @@ export default function ListUser({ selectReceiver, listChat }) {
     }
     dispatch(getListUser(search, navigate));
   }, []);
-
-  const submitSearch = (e) => {
-    e.preventDefault();
-
-    dispatch(getListUser(search, navigate));
-  };
 
   const logout = () => {
     Swal.fire({

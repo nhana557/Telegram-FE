@@ -106,7 +106,7 @@ export default function ListUser({ selectReceiver, listChat }) {
             type="text"
             className="input-search form-control"
             placeholder="Search"
-            value={search}
+            // value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
         </div>

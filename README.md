@@ -68,7 +68,7 @@ REACT_APP_API_URL=YOUR_API_URL
 ## Related Project
 
 - [Telegram Chat API](https://github.com/nhana557/Telegram_Chat_be)
-- [Telegram Chat Demo](https://vercel.com/nhana557/telegram-fe)
+- [Telegram Chat Demo](https://telegram-fe-chi.vercel.app/)
 
 <!-- CONTACT INFO -->
 ## Contact Info

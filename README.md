@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/favicon.ico" width="200px" height="200px" />
+  <img src="./readme/logo.svg" width="200px" height="200px" />
 </div>
 <h3 align="center">Telegram Chat</h3>
 <p align="center">

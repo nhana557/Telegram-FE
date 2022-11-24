@@ -20,6 +20,8 @@ export default function ListUser({ selectReceiver, listChat }) {
   // console.log(listChat[listChat.length - 1].message)
   console.log(listChat.length)
   const submitSearch = (e) => {
+    e.preventDefault();
+    
     dispatch(getListUser(search, navigate));
   };
   useEffect(() => {

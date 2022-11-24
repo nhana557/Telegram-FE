@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="./readme/logo.svg" width="200px" height="200px" />
+  <img src="./public/favicon.ico" width="200px" height="200px" />
 </div>
 <h3 align="center">Telegram Chat</h3>
 <p align="center">
-  <a href="https://nibiruchat.netlify.app/">View Demo</a>
+  <a href="https://vercel.com/nhana557/telegram-fe">View Demo</a>
   ·
-  <a href="https://github.com/andry-pebrianto/nibiruchat-client/issues">Report Bug</a>
+  <a href="https://github.com/nhana557/Telegram-Fe/issues">Report Bug</a>
 </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -49,28 +49,26 @@ REACT_APP_API_URL=YOUR_API_URL
 ## Screenshot
 
 ### Login
-<img src="./readme/1. ss-login.jpg" />
+<img src="./readme/Chat 1.png" />
 
 ### Register
-<img src="./readme/2. ss-register.jpg" />
+<img src="./readme/Chat 4.png" />
 
 ### Home
-<img src="./readme/3. ss-home.jpg" />
+<img src="./readme/Chat 2.png" />
 
 ### Edit Profile
-<img src="./readme/4. ss-edit-profile.jpg" />
+<img src="./readme/Chat 3.png" />
 
 ### Chat
-<img src="./readme/5. ss-chat.jpg" />
+<img src="./readme/Chat 1.png" />
 
-### Detail User
-<img src="./readme/6. ss-detailuser.jpg" />
 
 <!-- RELATED PROJECT -->
 ## Related Project
 
-- [Telegram Chat API]()
-- [Telegram Chat Demo]()
+- [Telegram Chat API](https://github.com/nhana557/Telegram_Chat_be)
+- [Telegram Chat Demo](https://vercel.com/nhana557/telegram-fe)
 
 <!-- CONTACT INFO -->
 ## Contact Info

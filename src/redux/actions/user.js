@@ -91,7 +91,7 @@ export const getListUser = (search, navigate) => async (dispatch) => {
       payload: null,
     });
 
-    const res = await axios.get(`${process.env.REACT_APP_API_URL}/user?search=${search}`, {
+    const res = await axios.get(`${process.env.REACT_APP_API_URL}/user?search=${search ? search : ""}`, {
       headers: { token },
     });
 

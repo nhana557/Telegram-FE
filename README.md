@@ -61,7 +61,7 @@ REACT_APP_API_URL=YOUR_API_URL
 <img src="./readme/Chat 3.png" />
 
 ### Chat
-<img src="./readme/Chat 1.png" />
+<img src="./readme/Chat 2.png" />
 
 
 <!-- RELATED PROJECT -->

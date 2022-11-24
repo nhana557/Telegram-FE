@@ -1,0 +1,29 @@
+.content-chat{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.shadow-custom{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn-custom{
+    background: white;
+    border: none;
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.notif-chat{
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 991px){
+    .content-view{
+        display: none;
+    }
+    .title-text{
+        display: none;
+    }
+}
